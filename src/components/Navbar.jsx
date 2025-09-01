@@ -24,11 +24,11 @@ export default function Navbar() {
               style={{filter: 'brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(3000%) hue-rotate(200deg)'}}
             />
           </div>
-          <div className="hidden xs:block">
-            <div className="font-black text-lg sm:text-xl bg-gradient-to-r from-primary-700 via-primary-600 to-teal-600 bg-clip-text text-transparent">
+          <div className="block">
+            <div className="font-black text-base xs:text-lg sm:text-xl bg-gradient-to-r from-primary-700 via-primary-600 to-teal-600 bg-clip-text text-transparent">
               Phehlukwayo
             </div>
-            <div className="text-xs text-gray-600 -mt-1 font-medium hidden sm:block">Chartered Accountants</div>
+            <div className="text-xs text-gray-600 -mt-1 font-medium">Chartered Accountants</div>
           </div>
         </Link>
         
