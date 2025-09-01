@@ -10,7 +10,7 @@ import ContactPage from './pages/ContactPage.jsx'
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/Phehlukwayo">
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-1">
