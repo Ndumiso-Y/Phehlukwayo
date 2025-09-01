@@ -11,7 +11,7 @@ export default function Navbar() {
         <Link to="/" className="flex items-center gap-3 group">
           <div className="relative p-2 rounded-xl bg-gradient-to-br from-primary-100 to-teal-100 group-hover:from-primary-200 group-hover:to-teal-200 transition-all duration-300 shadow-soft">
             <img 
-              src="/logo-light.png" 
+              src={`${import.meta.env.BASE_URL}logo-light.png`}
               alt="Phehlukwayo Logo" 
               className="h-8 w-auto transition-transform group-hover:scale-105 filter brightness-0 contrast-100" 
               style={{filter: 'brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(3000%) hue-rotate(200deg)'}}

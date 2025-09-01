@@ -83,7 +83,7 @@ export default function AboutPage() {
             </div>
           </div>
           <div className="rounded-2xl border p-8 bg-gradient-to-br from-white to-gray-50 shadow-xl">
-            <img src="/Boysie.jpg" alt="Boysie Phehlukwayo" className="rounded-xl w-full object-cover mb-6 shadow-lg" />
+            <img src={`${import.meta.env.BASE_URL}Boysie.jpg`} alt="Boysie Phehlukwayo" className="rounded-xl w-full object-cover mb-6 shadow-lg" />
             <h3 className="text-xl font-bold text-gray-900 mb-2">Boysie Phehlukwayo, C.A. (SA)</h3>
             <p className="text-primary font-semibold mb-3">CEO & Founder</p>
             <p className="text-sm text-gray-600">

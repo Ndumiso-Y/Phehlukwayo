@@ -15,7 +15,7 @@ export default function About() {
           </ul>
         </div>
         <div className="rounded-2xl border p-6 bg-white shadow-soft">
-          <img src="/Boysie.jpg" alt="Boysie Phehlukwayo" className="rounded-xl w-full object-cover" />
+          <img src={`${import.meta.env.BASE_URL}Boysie.jpg`} alt="Boysie Phehlukwayo" className="rounded-xl w-full object-cover" />
           <p className="mt-3 text-center text-sm font-medium text-gray-700">Boysie Phehlukwayo, C.A. (SA) – CEO & Founder</p>
         </div>
       </div>
